@@ -1,0 +1,46 @@
+{
+    "maintags": [
+      {
+        "id": 1,
+        "tag": "Ciências Agrárias",
+        "descricao": "Ciências Agrárias são uma área multidisciplinar do ensino envolvendo campos."
+      },
+      {
+        "id": 2,
+        "tag": "Ciência da Computação",
+        "descricao": "Ciência da Computação é a área do conhecimento que atua no desenvolvimento de programas para diferentes dispositivos, a exemplo de celulares e computadores."
+      }
+    ],
+    "tags": [
+      {
+        "id": 1,
+        "tag": "IA",
+        "descricao": "Conteúdo sobre IA"
+      },
+      {
+        "id": 2,
+        "tag": "Tradução Automática",
+        "descricao": "Conteúdo sobre Tradução Automática"
+      },
+      {
+        "id": 3,
+        "tag": "Economia",
+        "descricao": "Conteúdo sobre Economia"
+      }
+    ],
+    "artigos": [
+      {
+        "id": 1,
+        "nome": "O Avanço do GPT",
+        "descricao": "GPT, tradução automática e o quão bons eles são: uma avaliação abrangente",
+        "autor": "Priscila Soares",
+        "imagem": "/db/image1.webp",
+        "main_tag": "Ciência da Computação",
+        "data": "01/04/2023",
+        "tags": [
+          "IA",
+          "Tradução Automática"
+        ]
+      }
+    ]
+  }

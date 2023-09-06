@@ -1,8 +1,3 @@
-<script setup>
-import { RouterLink, RouterView } from 'vue-router'
-// import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
   <RouterView />
 </template>
@@ -70,14 +65,16 @@ nav a:first-of-type {
   }
 }
 </style>
-<script>
 
-  export default{
-    data: () => ({
-      logged: false,
-    }),
-    components: {
+<script setup>
 
-    }
-  }
+import { RouterLink, RouterView } from 'vue-router'
+// import HelloWorld from './components/HelloWorld.vue'
+
+const data = {
+  logged: false,
+}
+
+const components = {}
+
 </script>

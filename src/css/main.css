@@ -1,0 +1,54 @@
+@import '@/assets/base.css';
+
+:root{
+
+  /* Paleta de Cores */
+
+--color1: #579bd6;
+--color2: #a8c33f;
+--color3: #e9b42d;
+--white: #ffffff;
+--black: #1e1e1e;
+--bgrey: #383838;
+--Bcolor: #c8e660;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url(./fonts/Raleway-Regular.ttf);
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: #383838;
+  line-height: 1.6;
+  font-family: "Raleway";
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}

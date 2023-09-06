@@ -1,0 +1,17 @@
+{
+    "artigos": [
+        {
+            "id": 1,
+            "Nome": "O avanço do Gpt",
+            "desc": "GPT, tradução automática e o quão bons eles são: uma avaliação abrangente",
+            "autor": "Priscila Soares",
+            "image": "/db/image1.webp",
+            "maintag": "Ciências da Computação",
+            "data": "01/04/2023",
+            "tags": [
+                "IA",
+                "Tradução Automática"
+            ]
+        }
+    ]
+}

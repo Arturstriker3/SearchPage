@@ -1,0 +1,19 @@
+{
+    "tags": [
+        {
+            "id": 1,
+            "tag": "IA",
+            "desc": "Conteúdo sobre AI"
+        },
+        {
+            "id": 2,
+            "tag": "Tradução Automática",
+            "desc": "Conteúdo sobre Tradução Automática"
+        },
+        {
+            "id": 3,
+            "tag": "Economia",
+            "desc": "Conteúdo sobre Economia"
+        }
+    ]
+}

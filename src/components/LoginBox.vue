@@ -1,25 +1,26 @@
 <template>
     <div class="login-box">
-        <img src="../assets/image.png">
-        <div class="textfield_wrapper">
-            <input class="textfield" style="margin-bottom: 30px ;" type="text" placeholder="Email">
-            <input class="textfield" type="password" placeholder="Senha">
-        </div>
-        <span class="link" @click="this.showAlert()">Esqueci a senha</span>
-        <button class="button" @click="$emit('login');">Entrar</button>
+      <img src="../assets/image.png" alt="ImagemSE2050">
+      <div class="textfield_wrapper">
+        <input class="textfield" style="margin-bottom: 30px;" type="text" placeholder="Email">
+        <input class="textfield" type="password" placeholder="Senha">
+      </div>
+      <span class="link" @click="showAlert">Esqueci a senha</span>
+      <button class="button" @click="$emit('login')">Entrar</button>
     </div>
 </template>
-<script>
-export default{
-    methods: {
-        showAlert(){
-            alert("problema seu, burro!");
-        }
-    }
-}
+  
+<script setup>
+
+  const showAlert = () => {
+    const message = "problema seu, burro!";
+    alert(message);
+  };
+  
 </script>
 
 <style scoped>
+
 @media only screen and (max-width: 320px){
     .link{
         font-size: 8pt; 
@@ -91,5 +92,6 @@ input:focus {
 img{
     width: 300px;
 }
+
 
 </style>

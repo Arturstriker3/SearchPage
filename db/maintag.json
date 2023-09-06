@@ -1,0 +1,14 @@
+{
+    "maintags": [
+        {
+            "id": 1,
+            "tag": "Ciências Agrárias",
+            "desc": "Ciências Agrárias são uma área multidisciplinar do ensino envolvendo campos."
+        },
+        {
+            "id": 2,
+            "tag": "Ciências da Computação",
+            "desc": "Ciência da Computação é a área do conhecimento que atua no desenvolvimento de programas para diferentes dispositivos, a exemplo de celulares e computadores."
+        }
+    ]
+}

@@ -1,20 +1,16 @@
 <template>
     <div class="page">
-        <LoginBox @login="$router.push('/home')" />
+        <LoginBox @login="$router.push('/SearchPage')" />
     </div>
     <div class="page-bg"></div>
 </template>
-<script>
-    import LoginBox from '../components/LoginBox.vue';
-    export default{
-        data: () => ({
 
-        }),
-        components: {
-            LoginBox,
-        }
-    }
+<script setup>
+
+import LoginBox from '@/components/LoginBox.vue';
+
 </script>
+
 <style scoped>
     .page{
         display: flex;
@@ -28,4 +24,6 @@
         
         filter: blur(8px);
     }
+
+    
 </style>
